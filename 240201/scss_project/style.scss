@@ -1,0 +1,35 @@
+// variables
+$logo-weight: 500;
+$logo-widht: 150px;
+$logo-color: #222;
+$logo-spacing: 3px;
+
+body {
+  display: ;
+}
+.figma {
+  border: 1px solid #000;
+  width: $logo-widht;
+  span {
+    display: block;
+    text-align: center;
+    margin-bottom: 5px;
+    font-weight: $logo-weight;
+    color: $logo-color;
+    letter-spacing: $logo-spacing;
+    font-size: calc($logo-widht / 3);
+    .shape {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      span {
+        background: #00f;
+        width: calc($logo-widht / 2);
+        height: calc($logo-widht / 2);
+        &:nth-child(1) {
+          background: #f24e1e;
+          border-radius: 50% 0 0 50%;
+        }
+      }
+    }
+  }
+}
