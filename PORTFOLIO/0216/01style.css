@@ -196,7 +196,8 @@ h2 {
 
 .menu a:hover {
   font-size: 22px;
-  border-bottom: 2px solid #283953;
+  border-bottom: 2px solid palevioletred;
+  color: palevioletred;
 }
 
 /* info-content */
@@ -306,7 +307,7 @@ h2 {
 .edu-content {
   background: #283953;
   height: 100vh;
-  border: 1px solid#f00;
+  /* border: 1px solid#f00; */
 }
 .edu-content h2 {
   font-size: 50px;
@@ -440,7 +441,7 @@ h2 {
   position: absolute;
   width: 90px;
   height: 110px;
-  top: 60px;
+  top: 85px;
   left: 40px;
   border: 1px solid #283953;
   border-radius: 10px;
@@ -488,7 +489,7 @@ h2 {
   transition: all 0.4s linear;
 }
 .gr-card01:hover {
-  transform: scale(1.4);
+  transform: scale(1.2);
 }
 .gr-card01 img {
   position: absolute;
@@ -520,7 +521,7 @@ h2 {
   transition: all 0.4s linear;
 }
 .gr-card02:hover {
-  transform: scale(1.4);
+  transform: scale(1.2);
 }
 .gr-card02 img {
   position: absolute;
@@ -552,7 +553,7 @@ h2 {
   transition: all 0.4s linear;
 }
 .gr-card03:hover {
-  transform: scale(1.4);
+  transform: scale(1.2);
 }
 .gr-card03 img {
   position: absolute;
@@ -584,8 +585,8 @@ h2 {
 .favorite-cards {
   position: relative;
   display: flex;
-  margin: 3% 5%;
-  top: -5%;
+  margin: 3% 13%;
+  top: 5px;
 }
 
 /* ##### favorite card01 ##### */
@@ -598,13 +599,13 @@ h2 {
   position: relative;
   display: flex;
   top: 0;
-  left: 45px;
+  left: 40px;
 }
 
 .fa-cardcontent01-1 {
   width: 320px;
   height: 520px;
-  border: 1px solid #f00;
+  /* border: 1px solid #f00; */
 }
 .fa-cardcontent01 img {
   position: absolute;
@@ -668,23 +669,23 @@ h2 {
   left: 70px;
   color: #283953;
   font-size: 30px;
-  border: 1px solid #f00;
+  /* border: 1px solid #f00;  */
 }
 .fa-cardcp01 .fa-backward {
   width: 60px;
-  border: 1px solid #f00;
+  /* border: 1px solid #f00; */
 }
 .fa-cardcp01 .fa-pause {
   width: 50px;
-  border: 1px solid #f00;
+  /* border: 1px solid #f00; */
 }
 .fa-cardcp01 .fa-forward {
   width: 50px;
-  border: 1px solid #f00;
+  /* border: 1px solid #f00; */
 }
 .fa-cardcp01 .fa-headphones-simple {
   width: 50px;
-  border: 1px solid #f00;
+  /* border: 1px solid #f00; */
 }
 
 .line01-3 {
@@ -739,13 +740,13 @@ h2 {
   position: relative;
   display: flex;
   top: 0;
-  left: 45px;
+  left: 150px;
 }
 
 .fa-cardcontent02-1 {
   width: 320px;
   height: 520px;
-  border: 1px solid #f00;
+  /* border: 1px solid #f00; */
 }
 .fa-cardcontent02 img {
   position: absolute;
@@ -809,23 +810,23 @@ h2 {
   left: 70px;
   color: #283953;
   font-size: 30px;
-  border: 1px solid #f00;
+  /* border: 1px solid #f00; */
 }
 .fa-cardcp02 .fa-backward {
   width: 60px;
-  border: 1px solid #f00;
+  /* border: 1px solid #f00; */
 }
 .fa-cardcp02 .fa-pause {
   width: 50px;
-  border: 1px solid #f00;
+  /* border: 1px solid #f00; */
 }
 .fa-cardcp02 .fa-forward {
   width: 50px;
-  border: 1px solid #f00;
+  /* border: 1px solid #f00; */
 }
 .fa-cardcp02 .fa-headphones-simple {
   width: 50px;
-  border: 1px solid #f00;
+  /* border: 1px solid #f00; */
 }
 
 .line02-3 {
@@ -879,13 +880,13 @@ h2 {
   position: relative;
   display: flex;
   top: 0;
-  left: 45px;
+  left: 260px;
 }
 
 .fa-cardcontent03-1 {
   width: 320px;
   height: 520px;
-  border: 1px solid #f00;
+  /* border: 1px solid #f00; */
 }
 .fa-cardcontent03 img {
   position: absolute;
@@ -949,23 +950,23 @@ h2 {
   left: 70px;
   color: #283953;
   font-size: 30px;
-  border: 1px solid #f00;
+  /* border: 1px solid #f00; */
 }
 .fa-cardcp03 .fa-backward {
   width: 60px;
-  border: 1px solid #f00;
+  /* border: 1px solid #f00; */
 }
 .fa-cardcp03 .fa-pause {
   width: 50px;
-  border: 1px solid #f00;
+  /* border: 1px solid #f00; */
 }
 .fa-cardcp03 .fa-forward {
   width: 50px;
-  border: 1px solid #f00;
+  /* border: 1px solid #f00; */
 }
 .fa-cardcp03 .fa-headphones-simple {
   width: 50px;
-  border: 1px solid #f00;
+  /* border: 1px solid #f00; */
 }
 
 .line03-3 {
@@ -1008,4 +1009,106 @@ h2 {
   width: 30px;
   font-size: 20px;
   color: #283953;
+}
+
+/* contact me */
+
+.ct-content {
+  position: relative;
+  height: 100vh;
+  background-color: #f4ebdc;
+}
+
+.ct-titile h1 {
+  font-size: 50px;
+  padding: 40px;
+  color: #283953;
+  font-weight: normal;
+}
+
+.ct-img {
+  position: absolute;
+  top: 200px;
+  left: 270px;
+}
+
+.contacts {
+  position: relative;
+  top: 180px;
+  left: 950px;
+  line-height: 60px;
+}
+
+.contact-insta i {
+  font-size: 40px;
+  color: #283953;
+  margin-left: 5px;
+}
+
+.contact-insta a {
+  position: absolute;
+  font-size: 17px;
+  color: #283953;
+  top: -10px;
+  left: 65px;
+  transition: all 0.4s;
+}
+.contact-insta a:hover {
+  font-size: 20px;
+  color: palevioletred;
+}
+
+.contact-git i {
+  font-size: 40px;
+  color: #283953;
+  margin-left: 3px;
+}
+
+.contact-git a {
+  position: absolute;
+  font-size: 17px;
+  color: #283953;
+  top: 50px;
+  left: 65px;
+  transition: all 0.4s;
+}
+.contact-git a:hover {
+  font-size: 20px;
+  color: palevioletred;
+}
+.contact-Gmail i {
+  font-size: 40px;
+  color: #283953;
+  margin-left: 2px;
+}
+
+.contact-Gmail a {
+  position: absolute;
+  font-size: 17px;
+  color: #283953;
+  top: 110px;
+  left: 65px;
+  transition: all 0.4s;
+}
+.contact-Gmail a:hover {
+  font-size: 20px;
+  color: palevioletred;
+}
+.contact-phone i {
+  font-size: 40px;
+  color: #283953;
+  margin-left: 7px;
+}
+
+.contact-phone a {
+  position: absolute;
+  font-size: 17px;
+  color: #283953;
+  top: 170px;
+  left: 65px;
+  transition: all 0.4s;
+}
+.contact-phone a:hover {
+  font-size: 20px;
+  color: palevioletred;
 }
